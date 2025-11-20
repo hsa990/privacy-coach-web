@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Personal Data Privacy Coach</title>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+ 
+    .tip-box {
+      background-color: #ede7f6;
+      color: #311b92;
+      border-left: 5px solid #4a148c;
+      padding: 15px 20px;
+      font-size: 1.1em;
+      font-style: italic;
+      margin-top: 30px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Your Personal Data Privacy Coach</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="signup.html">Signup</a></li>
+      <li><a href="about.html">About Us</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="intro">
+      <h2>Why It Matters</h2>
+      <p>People often compromise their digital privacy through weak habits—reused passwords, unchecked app permissions, and oversharing.</p>
+      <p>This site helps raise awareness and build better digital hygiene.</p>
+    </section>
+
+    <section>
+      <h2>Privacy Tip of the Day</h2>
+      <div class="tip-box" id="privacy-tip">Loading tip...</div>
+    </section>
+
+    <section>
+      <h2>Risk vs. Safety</h2>
+      <table>
+        <tr><th>Good Practice</th><th>Risky Behavior</th></tr>
+        <tr><td>Using two-factor authentication (2FA)</td><td>Same password across sites</td></tr>
+        <tr><td>Reviewing app permissions regularly</td><td>Granting full access blindly</td></tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Simple Privacy Habits</h2>
+      <div class="habit-card">🔒 Use unique, strong passwords</div>
+      <div class="habit-card">📱 Enable 2FA on all major accounts</div>
+      <div class="habit-card">🔍 Review social media visibility settings</div>
+    </section>
+
+    <section>
+      <h2>Interactive Preview</h2>
+      <img src="images/privacy-map.png" alt="Privacy Awareness Map" usemap="#aboutmap" width="400" />
+      <map name="aboutmap">
+        <area shape="rect" coords="0,0,400,400" href="about.html" alt="About Us"/>
+      </map>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Privacy Coach Team | Stay Safe, Stay Private</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
