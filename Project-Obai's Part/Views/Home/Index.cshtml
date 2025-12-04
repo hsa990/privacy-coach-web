@@ -1,0 +1,69 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Your Personal Data Privacy Coach</h1>
+
+    <p class="lead">
+        People often compromise their digital privacy through weak habits —
+        reused passwords, unchecked app permissions, and oversharing.
+        This platform helps raise awareness and build better digital hygiene.
+    </p>
+
+   
+    <a class="btn btn-primary btn-lg mt-3"
+       asp-controller="Quiz"
+       asp-action="Index">
+        Take the Privacy Quiz
+    </a>
+</div>
+
+<hr />
+
+<h2>Why It Matters</h2>
+<p>
+    With the rise of online services, users unknowingly expose their personal
+    information through risky behaviors. Understanding these risks is the first step
+    toward staying protected in your digital life.
+</p>
+
+<hr />
+
+<h2>Privacy Tip of the Day</h2>
+<p id="privacy-tip">Loading tip...</p>
+
+<hr />
+
+<h2>Risk vs. Safety</h2>
+<table class="table table-bordered">
+    <thead class="table-light">
+        <tr>
+            <th>Good Practice</th>
+            <th>Risky Behavior</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Using two-factor authentication (2FA)</td>
+            <td>Same password across sites</td>
+        </tr>
+        <tr>
+            <td>Reviewing app permissions regularly</td>
+            <td>Granting full access blindly</td>
+        </tr>
+    </tbody>
+</table>
+
+<hr />
+
+<h2>Simple Privacy Habits</h2>
+<ul>
+    <li>Use unique, strong passwords</li>
+    <li>Enable 2FA on all major accounts</li>
+    <li>Review your social media visibility settings</li>
+</ul>
+
+@section Scripts {
+    <script src="~/js/script.js"></script>
+}

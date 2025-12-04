@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Profile";
+}
+
+<div class="container mt-5 mb-5">
+    <h1 class="text-center mb-4">Your Profile</h1>
+
+    <div class="card p-4 shadow">
+
+        <h3>Account Information</h3>
+        <p><strong>Username:</strong> @ViewBag.Username</p>
+        <p><strong>Email:</strong> example@email.com</p>
+
+        <hr />
+
+        <h3>Your Latest Quiz Result</h3>
+        <p><strong>Score:</strong> @ViewBag.Score / 10</p>
+
+        <hr />
+
+        <h3>Recommendations</h3>
+        <ul>
+            <li>Update weak passwords regularly</li>
+            <li>Check app permissions on your phone</li>
+            <li>Enable Two-Factor Authentication</li>
+            <li>Review your social media privacy settings</li>
+        </ul>
+
+    </div>
+</div>
