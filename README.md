@@ -23,5 +23,5 @@ A student-built ASP.NET Core MVC web application developed for CPIS-358.
 4. Press Run (IIS Express)
 
 ## Authors
-- Hisham Alawi Albaiti (2338649)
-- Obai Yousef Merdad (2236536)
+- Hisham Alawi Albaiti
+- Obai Yousef Merdad
